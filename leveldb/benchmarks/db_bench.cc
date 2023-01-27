@@ -27,7 +27,7 @@
 //      fillseq       -- write N values in sequential key order in async mode
 //      fillrandom    -- write N values in random key order in async mode
 //      overwrite     -- overwrite N values in random key order in async mode
-//      fillsync      -- write N/100 values in random key order in sync mode
+//      fillsync      -- write N/100 values in random key order in sync mode %多少每写一个key就要同步到磁盘里
 //      fill100K      -- write N/1000 100K values in random order in async mode
 //      deleteseq     -- delete N keys in sequential order
 //      deleterandom  -- delete N keys in random order
