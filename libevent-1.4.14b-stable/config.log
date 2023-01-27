@@ -1169,7 +1169,7 @@ configure:11352: $? = 0
 configure:11352: result: yes
 configure:11352: checking for strlcpy
 configure:11352: gcc -o conftest -g -O2 -Wall -fno-strict-aliasing   conftest.c -lnsl -lrt -lresolv  >&5
-/usr/bin/ld: /tmp/cchh9dhp.o: in function `main':
+/usr/bin/ld: /tmp/ccLJXF5H.o: in function `main':
 /home/xinna/Desktop/leveldb_paper/libevent-1.4.14b-stable/conftest.c:90: undefined reference to `strlcpy'
 collect2: error: ld returned 1 exit status
 configure:11352: $? = 1
@@ -1286,7 +1286,7 @@ configure:11352: $? = 0
 configure:11352: result: yes
 configure:11352: checking for issetugid
 configure:11352: gcc -o conftest -g -O2 -Wall -fno-strict-aliasing   conftest.c -lnsl -lrt -lresolv  >&5
-/usr/bin/ld: /tmp/ccZc41vU.o: in function `main':
+/usr/bin/ld: /tmp/ccdBZirc.o: in function `main':
 /home/xinna/Desktop/leveldb_paper/libevent-1.4.14b-stable/conftest.c:94: undefined reference to `issetugid'
 collect2: error: ld returned 1 exit status
 configure:11352: $? = 1
@@ -1419,7 +1419,7 @@ configure:11482: $? = 0
 configure:11482: result: yes
 configure:11674: checking for port_create
 configure:11674: gcc -o conftest -g -O2 -Wall -fno-strict-aliasing   conftest.c -lnsl -lrt -lresolv  >&5
-/usr/bin/ld: /tmp/cc5Bqcc4.o: in function `main':
+/usr/bin/ld: /tmp/ccE3aP1s.o: in function `main':
 /home/xinna/Desktop/leveldb_paper/libevent-1.4.14b-stable/conftest.c:103: undefined reference to `port_create'
 collect2: error: ld returned 1 exit status
 configure:11674: $? = 1
@@ -2420,6 +2420,7 @@ config.status:1122: creating Makefile
 config.status:1122: creating test/Makefile
 config.status:1122: creating sample/Makefile
 config.status:1122: creating config.h
+config.status:1294: config.h is unchanged
 config.status:1342: executing depfiles commands
 config.status:1342: executing libtool commands
 
